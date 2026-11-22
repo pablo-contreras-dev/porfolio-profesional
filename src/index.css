@@ -1,0 +1,33 @@
+:root {
+  font-family: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+  color: #e5eaf2;
+  background: #10141d;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --bg: #10141d;
+  --surface: #171d28;
+  --surface-raised: #1d2633;
+  --line: #303b4c;
+  --text: #e5eaf2;
+  --muted: #a1adbf;
+  --accent: #64e6b5;
+  --accent-dark: #36bd91;
+  --accent-soft: rgba(100,230,181,.11);
+  --orange: #ffb86b;
+  --violet: #a99bff;
+  --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
+  --heading: 'Orbitron', sans-serif;
+  color-scheme: dark;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+::selection { color: #10141d; background: var(--accent); }
